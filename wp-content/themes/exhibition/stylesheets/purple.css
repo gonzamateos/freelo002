@@ -1,0 +1,11 @@
+header .banner-info, .container-tour .logo.section { background-color:#7b0046;  background-color:rgba(123,0,70,0.9); }
+.menu ul li a:hover{ border-bottom:2px solid #7b0046;  border-bottom:2px solid rgba(123,0,70,0.9);}
+.overview p.quote{ border-left:10px solid #7b0046;  border-left:10px solid rgba(123,0,70,0.9);}
+.iosSlider .slider .item a.img_wrapper .caption{ background-color:#7b0046;  background-color:rgba(123,0,70,0.95); }
+.venue-section .section-title{ background-color:#7b0046;  background-color:rgba(123,0,70,0.9);}
+.details_info{ background-color:#7b0046;  background-color:rgba(123,0,70,0.9);}
+.custom-select select{ background:#7b0046;  background:rgba(123,0,70,0.7);}
+.venue-section .pin_venue{  background:url("../images/pinmap-purple.png") center center no-repeat;}
+div.controls-sponsors, .cbp-bicontrols a{  background-image:url("../images/arrows-purple.png"); }
+div.controls-gallery{background:url("../images/arrows-purple.png"); }
+.gr-caption-close:hover, .gr-caption > div a:hover, .gr-caption > div a { color: #7b0046; color: rgba(123,0,70,0.9); }
