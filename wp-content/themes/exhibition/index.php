@@ -228,6 +228,7 @@
               <div class="address">
                 <?php $NHP_Options->show('venue'); ?>
               </div>
+              <?php /*
               <div class="distance">
                 <h6 id="you_are"></h6>
                 <h3 id="distance"></h3>
@@ -241,6 +242,7 @@
                   <option value="TRANSIT">Transit</option>
                </select>
               </div>
+              */?>
           </div>
           <!-- End Details -->
 
@@ -268,7 +270,7 @@
 
 
 <!-- Sponsors Section -->
-<section class="sponsors-section">
+<section id="sponsors" class="sponsors-section">
 <div class="container-full">
 
        <!-- Section Title -->
@@ -323,7 +325,7 @@
 
 
 
-
+<?php /*
 <!-- 3d Gallery Section -->
 <section id="tour" style="background:url('<?php $NHP_Options->show('3d_image'); ?>') center center no-repeat; 
                                                          -webkit-background-size: cover;
@@ -338,5 +340,5 @@
   </div>
 </section>
 <!-- End 3d Gallery Section -->
-
+*/?>
 <?php get_footer(); ?>
