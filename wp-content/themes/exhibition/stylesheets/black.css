@@ -1,6 +1,6 @@
-header .banner-info, .container-tour .logo.section { background-color:#222222;  background-color:rgba(34,34,34,0.9); }
-.menu ul li a:hover{ border-bottom:2px solid #222222;  border-bottom:2px solid rgba(34,34,34,0.9);}
-.overview p.quote{ border-left:10px solid #222222;  border-left:10px solid rgba(34,34,34,0.9);}
+header .banner-info, .container-tour .logo.section { background-color:#778692;  background-color:rgba(119,134,146,0.9); }
+.menu ul li a:hover{ border-bottom:2px solid #778692;  border-bottom:2px solid rgba(119,134,146,0.9);}
+.overview p.quote{ border-left:10px solid #778692;  border-left:10px solid rgba(119,134,146,0.9);}
 .iosSlider .slider .item a.img_wrapper .caption{ background-color:#222222;  background-color:rgba(34,34,34,0.95); }
 .venue-section .section-title{ background-color:#222222;  background-color:rgba(34,34,34,0.9);}
 .details_info{ background-color:#222222;  background-color:rgba(34,34,34,0.9);}

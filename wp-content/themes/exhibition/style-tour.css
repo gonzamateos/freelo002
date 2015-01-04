@@ -295,7 +295,7 @@ body {
 	background-color: #fff;
 	text-align: center;
 	padding: 15px 0px;
-	width: 225px !important;
+	width: 260px !important;
 }
 .left-menu #menu ul li {
 	display: block;
@@ -312,7 +312,7 @@ color: #111111 !important;
 	font-family: "Montserrat", sans-serif;
 	margin: 0;
 	text-transform: uppercase;
-	height: 60px;
+	height: 171px;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -321,6 +321,7 @@ color: #111111 !important;
 	background-color: rgba(237, 28, 36, 0.9);
  	width: 100%;
  	text-align: center;
+        padding: 15px 5px;
 }
 .logo a {
 	display: block;
@@ -339,7 +340,7 @@ margin-top: -3px;
 }
 
 #nav.close {
-	margin-left: -225px;
+	margin-left: -260px;
 	-webkit-transition: all .2s linear;
 	-moz-transition: all .2s linear;
 	-o-transition: all .2s linear;

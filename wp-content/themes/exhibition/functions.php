@@ -208,7 +208,7 @@ register_post_type('slider', array( 'label' => 'Main Slider','description' => ''
 
 // Main Gallery
 
-register_post_type('main_gallery', array(   'label' => 'Gallery','description' => '','public' => true,'show_ui' => true,'show_in_menu' => true,'capability_type' => 'post','hierarchical' => false,'rewrite' => array('slug' => ''),'query_var' => true,'exclude_from_search' => true,'menu_position' => 27,'supports' => array('title','editor','thumbnail',),'labels' => array (
+register_post_type('main_gallery', array(   'label' => 'Gallery','description' => '','public' => true,'show_ui' => true,'show_in_menu' => true,'capability_type' => 'post','hierarchical' => false,'rewrite' => array('slug' => ''),'query_var' => true,'exclude_from_search' => true,'menu_position' => 27,'supports' => array('title','editor','thumbnail', 'custom-fields'),'labels' => array (
   'name' => 'Gallery',
   'singular_name' => 'Gallery Image',
   'menu_name' => 'Gallery',

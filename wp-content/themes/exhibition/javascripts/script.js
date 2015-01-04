@@ -119,8 +119,12 @@ $(document).ready(function() {
  
 });
 
+$('.to-overview').click(function () {
+    $('#overview .texto').hide();
+    $('#overview .texto.'+$(this).find('a').attr('rel')).fadeIn();
 });
 
+});
 
 
 

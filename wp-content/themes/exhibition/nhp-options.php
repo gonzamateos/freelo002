@@ -266,7 +266,64 @@ $sections[] = array(
 					array(
 						'id' => 'overview',
 						'type' => 'editor',
-						'title' => __('Main Information', 'nhp-opts'), 
+						'title' => __('Quienes Somos?', 'nhp-opts'), 
+						'sub_desc' => __('Main information above the images', 'nhp-opts'),
+						'desc' => __('Remember to select the tab "text" for HTML', 'nhp-opts'),
+						'std' => ''
+						),
+					array(
+						'id' => 'mision',
+						'type' => 'editor',
+						'title' => __('Nuestra Mision', 'nhp-opts'), 
+						'sub_desc' => __('Main information above the images', 'nhp-opts'),
+						'desc' => __('Remember to select the tab "text" for HTML', 'nhp-opts'),
+						'std' => ''
+						),
+					array(
+						'id' => 'vision',
+						'type' => 'editor',
+						'title' => __('Nuestra Vision', 'nhp-opts'), 
+						'sub_desc' => __('Main information above the images', 'nhp-opts'),
+						'desc' => __('Remember to select the tab "text" for HTML', 'nhp-opts'),
+						'std' => ''
+						),
+                                    	array(
+						'id' => 'galeria',
+						'type' => 'editor',
+						'title' => __('Acerca de la Galeria', 'nhp-opts'), 
+						'sub_desc' => __('Main information above the images', 'nhp-opts'),
+						'desc' => __('Remember to select the tab "text" for HTML', 'nhp-opts'),
+						'std' => ''
+						),
+					array(
+						'id' => 'artistas',
+						'type' => 'editor',
+						'title' => __('Los Artistas', 'nhp-opts'), 
+						'sub_desc' => __('Main information above the images', 'nhp-opts'),
+						'desc' => __('Remember to select the tab "text" for HTML', 'nhp-opts'),
+						'std' => ''
+						),
+					array(
+						'id' => 'clientes',
+						'type' => 'editor',
+						'title' => __('Nestros Clientes', 'nhp-opts'), 
+						'sub_desc' => __('Main information above the images', 'nhp-opts'),
+						'desc' => __('Remember to select the tab "text" for HTML', 'nhp-opts'),
+						'std' => ''
+						),
+                                    /*
+					array(
+						'id' => 'gestion',
+						'type' => 'editor',
+						'title' => __('Gestion Cultural', 'nhp-opts'), 
+						'sub_desc' => __('Main information above the images', 'nhp-opts'),
+						'desc' => __('Remember to select the tab "text" for HTML', 'nhp-opts'),
+						'std' => ''
+						),*/
+					array(
+						'id' => 'proyartbol',
+						'type' => 'editor',
+						'title' => __('Proyecto ArTbol', 'nhp-opts'), 
 						'sub_desc' => __('Main information above the images', 'nhp-opts'),
 						'desc' => __('Remember to select the tab "text" for HTML', 'nhp-opts'),
 						'std' => ''

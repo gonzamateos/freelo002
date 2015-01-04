@@ -311,11 +311,11 @@ header .banner-info{ background-color:#ed1c24;  background-color:rgba(237,28,36,
 
 .cart_list.close{ width:0px;  -webkit-transition:all 1s;  -moz-transition:all 1s;  -o-transition:all 1s;  transition:all 1s;  -webkit-transition-duration:0.5s;  -moz-transition-duration:0.5s;  -o-transition-duration:0.5s;  transition-duration:0.5s}
 
-.cart_list.open{ width: 80%;;  -webkit-transition:all 1s;  -moz-transition:all 1s;  -o-transition:all 1s;  transition:all 1s;  -webkit-transition-duration:0.5s;  -moz-transition-duration:0.5s;  -o-transition-duration:0.5s;  transition-duration:0.5s}
+.cart_list.open{ width: 90%;;  -webkit-transition:all 1s;  -moz-transition:all 1s;  -o-transition:all 1s;  transition:all 1s;  -webkit-transition-duration:0.5s;  -moz-transition-duration:0.5s;  -o-transition-duration:0.5s;  transition-duration:0.5s}
 
 .menu ul{ list-style:none;  white-space:nowrap;  margin:0;  padding:0; text-align: center;}
 
-.menu ul li{ float:left;  font-family:"Montserrat",sans-serif;  white-space:nowrap;  padding: 20px 15px;}
+.menu ul li{ float:left;  font-family:"Montserrat",sans-serif;  white-space:nowrap;  padding: 20px 12px;}
 
 .menu ul li a{ color:#111;  padding-bottom:3px;  text-decoration:none;  border-bottom:2px solid white; font-size: 15px;}
 
@@ -361,7 +361,70 @@ header .banner-info{ background-color:#ed1c24;  background-color:rgba(237,28,36,
 
 /* Overview Section */
 
-.overview p{ font-weight:300;  font-size:16px;  padding:0;  margin:8px 0px 20px;  line-height:24px}
+.overview {
+    padding-top: 1.5em;
+}
+.overview .texto {
+    float: left;
+    text-align: justify;
+}
+@media only screen and (min-width:767px){
+    .overview .texto.quienes-somos {
+        width: 47%;
+    }
+    .overview .texto.quienes-somos h2 {
+        font-size: 1.85em;
+    }
+    .overview .texto.quienes-somos p {
+        font-size: 1.25em;
+    }
+    .overview .texto.mision {
+        width: 47%;
+        margin: 3.25em 0 0 6%;
+    }
+    .overview .texto.vision {
+        width: 47%;
+        margin-left: 6%;
+    }
+    .overview .texto.artistas {
+        width: 47%;
+    }
+    .overview .texto.clientes,
+    .overview .texto.gestion {
+        width: 47%;
+        margin-left: 5%;
+    }
+}
+.overview .texto h2 {
+    font-family: Arial;
+    font-weight: bolder;
+    margin-bottom: .4em;
+}
+.overview .texto h2 span {
+    color: #576672;
+}
+@media only screen and (min-width:767px){
+    .overview .texto.mision h2, 
+    .overview .texto.vision h2, 
+    .overview .texto.artistas h2, 
+    .overview .texto.clientes h2, 
+    .overview .texto.gestion h2 {
+        font-size: 1.2em;
+        text-align: right;
+        border-bottom: 1px solid;
+        margin-bottom: .15em;
+    }
+    .overview .texto.mision p, 
+    .overview .texto.vision p, 
+    .overview .texto.artistas p, 
+    .overview .texto.clientes p, 
+    .overview .texto.gestion p {
+        color: #576672;
+        font-size: .9em;
+        line-height: 1.5em;
+    }
+}
+.overview p{ font-weight:300;  font-size:16px;  padding:0;  margin:8px 0px 21px;  line-height:24px}
 
 .highlighted p{ font-size:22px;  margin:0;  padding:5px 0px;  line-height:30px}
 
@@ -412,7 +475,10 @@ header .banner-info{ background-color:#ed1c24;  background-color:rgba(237,28,36,
  
  .underline{ border-bottom:none}
 }
-
+#overview .texto.servicios,
+#overview .texto.artbol{
+    display: none;
+}
 
 /* Gallery Section */
 

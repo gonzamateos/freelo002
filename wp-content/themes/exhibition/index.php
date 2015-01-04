@@ -83,20 +83,51 @@
 <section id="overview" class="overview">
   <div class="container-full">
         
+        <?php /*
         <!-- Section Title -->
         <div class="section row nomargin">
               <div class="desktop-full tablet-full mobile-full">
-                <h1 class="section-title"><?php $NHP_Options->show('o_title'); ?></h1>
+                  <h1 class="section-title"><?php $NHP_Options->show('o_title'); ?></h1>
               </div>
         </div>
         <!-- End title -->
-
+        */?>
 
         <!-- Content -->
         <div class="section row nomargin">
-
-          <?php $NHP_Options->show('overview'); ?>
-        
+            <div class="texto quienes-somos nosotros">
+                <h2>&iquest;Qui&eacute;nes <span>Somos?</span></h2>
+                <?php $NHP_Options->show('overview'); ?>
+            </div>
+            <div class="texto mision nosotros">
+                <h2>Nuestra Misi&oacute;n</h2>
+                <?php $NHP_Options->show('mision'); ?>
+            </div>
+            <div class="texto vision nosotros">
+                <h2>Nuestra Visi&oacute;n</h2>
+                <?php $NHP_Options->show('vision'); ?>
+            </div>
+            <div class="texto galeria servicios">
+                <h2>Acerca <span>de la Galer&iacute;a</span></h2>
+                <?php $NHP_Options->show('galeria'); ?>
+            </div>
+            <div class="texto artistas servicios">
+                <h2>Los Artistas</h2>
+                <?php $NHP_Options->show('artistas'); ?>
+            </div>
+            <div class="texto clientes servicios">
+                <h2>Nuestros Clientes</h2>
+                <?php $NHP_Options->show('clientes'); ?>
+            </div>
+            <?php /*
+            <div class="texto gestion">
+                <h2>Gesti&oacute;n <span>Cultural</span></h2>
+                <?php $NHP_Options->show('gestion'); ?>
+            </div> */ ?>
+            <div class="texto artbol">
+                <h2>Proyecto <span>ArTbol</span></h2>
+                <?php $NHP_Options->show('proyartbol'); ?>
+            </div>
         </div>
         <!-- End Content -->
 
@@ -168,12 +199,14 @@
 				while ( $the_query->have_posts() ) : $the_query->the_post();
 				?>
 				<?php
-				$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) )
-				?>
-
+				$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+				$link = get_post_meta($post->ID, 'link', true); 
+                                $href = (!empty($link))?'href="'.$link.'" target="_blank" ':'';
+                                //$href = (!empty($url))?'href="'.$url.'" target="_blank" ':''?>
 
 				 <div class = 'item active'>  
-              			<a class="img_wrapper">  
+                                     
+              			<a class="img_wrapper" <?php echo $href; ?>>  
                 			<img src="<?php echo $url; ?>" alt="<?php the_title(); ?>">
 			                <div class="caption">
 			                  <h5><?php the_title(); ?></h5>
@@ -325,7 +358,7 @@
 
 
 
-<?php /*
+
 <!-- 3d Gallery Section -->
 <section id="tour" style="background:url('<?php $NHP_Options->show('3d_image'); ?>') center center no-repeat; 
                                                          -webkit-background-size: cover;
@@ -340,5 +373,8 @@
   </div>
 </section>
 <!-- End 3d Gallery Section -->
-*/?>
-<?php get_footer(); ?>
+<?php get_footer();
+//1-129u58v@arnet-pos-apd
+//1-129u58v
+//2i5h002
+?>
